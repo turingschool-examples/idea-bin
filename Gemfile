@@ -13,4 +13,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'teaspoon'
+  gem 'teaspoon-mocha'
+  gem 'magic_lamp'
 end
