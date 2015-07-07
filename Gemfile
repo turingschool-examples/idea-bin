@@ -16,4 +16,5 @@ group :development, :test do
   gem 'teaspoon'
   gem 'teaspoon-mocha'
   gem 'magic_lamp'
+  gem 'database_cleaner'
 end
