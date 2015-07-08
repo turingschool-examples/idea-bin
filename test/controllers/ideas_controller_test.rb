@@ -16,7 +16,7 @@ class IdeasControllerTest < ActionController::TestCase
   test 'index returns an array of records' do
     get :index, format: :json
     response_body = JSON.parse(response.body)
-    assert_kind_of Array, response_body['idea']
+    assert_kind_of Array, response_body
   end
 
   test 'api can get a single idea' do
